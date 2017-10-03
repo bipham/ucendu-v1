@@ -1,0 +1,221 @@
+/*************************************************
+	Created by: Anh Pham;
+	Date: 29/04/2017;
+	Style CSS for web - client
+	Version: 01;
+ *************************************************/
+@media (max-width: 1650px) {
+    .img-thumbnail-middle {
+        /*height: 200px;*/
+    }
+
+    .lesson-item .frame-hover-lesson {
+        padding: 40px 10px 10px 10px;
+    }
+
+    .title-total-question-ov {
+        font-size: 12px;
+    }
+
+    .number-total-ov {
+        font-size: 10px;
+    }
+
+    .detail-number-type-over-view {
+        margin: 3px 0 0 0;
+    }
+
+    .title-type-question-ov {
+        font-size: 10px;
+    }
+
+    .number-type-ov {
+        font-size: 11px;
+    }
+
+    .card-body-product {
+        padding: 10px;
+    }
+
+    .info-cate-time-lesson, .btn-lesson-overview-area {
+        height: 30px;
+    }
+
+    .title-lesson {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    .btn-lesson-overview-area {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .btn-inline {
+        /*float: left;*/
+        display: inline-block;
+        margin: 0;
+    }
+
+    .card-footer-product {
+        padding: 10px;
+    }
+
+    .type-lesson-header {
+        font-size: 9px;
+        margin: 3px 0;
+        padding: 5px 7px;
+    }
+
+    .col-md-3.lesson-item {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 23%;
+        -ms-flex: 0 0 23%;
+        flex: 0 0 23%;
+        max-width: 23%;
+    }
+
+    .btn-test-overview {
+        padding: 5px 7px;
+        font-size: 13px;
+    }
+
+    .card-cate-lesson {
+        font-size: 11px;
+    }
+
+    .time-ago-lesson {
+        font-size: 10px;
+    }
+
+    .limit-time-overview {
+        font-size: 11px;
+        padding: 2px 3px;
+    }
+
+    .title-type-lesson {
+        font-size: 16px;
+    }
+
+    .type-lesson-header {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 850px) {
+
+}
+
+@media (max-width: 768px) {
+
+
+
+}
+
+@media (max-width: 500px) {
+
+}
+
+@media (min-width: 500px) {
+    .col-md-3.product-item {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 48%;
+        -ms-flex: 0 0 48%;
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+    .container {
+        width: 95%;
+    }
+    header .container {
+        width: 60%;
+    }
+    .col-footer-custom {
+        width: auto;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    .panel-container {
+        flex-direction: row;
+    }
+    .splitter-horizontal {
+        display: none;
+    }
+
+    .splitter {
+        flex: 0 0 auto;
+        width: 18px;
+        /*background: url(/images/vsizegrip.png) center center no-repeat #535353;*/
+        min-height: calc(100vh - 185px);
+        cursor: col-resize;
+        display: block;
+        background-color: #AAA;
+        /* border-radius: 10px; */
+        background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent);
+    }
+
+    .left-panel-custom {
+        /*width: 50%;*/
+        width: calc(60% - 18px);
+        /* height: calc(100vh - 185px); */
+        float: left;
+        max-height: calc(100vh - 100px);
+        min-height: calc(100vh - 100px);
+        min-width: 30%;
+        max-width: 70%;
+    }
+
+    .right-panel-custom {
+        float: left;
+        padding-bottom: 0;
+        overflow: hidden;
+        max-height: calc(100vh - 100px);
+        min-height: calc(100vh - 100px);
+    }
+
+    .right-panel-custom.active-quiz {
+        overflow: auto;
+    }
+
+    .modal-lg {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1650px) {
+    .col-md-3.lesson-item {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 18%;
+        -ms-flex: 0 0 18%;
+        flex: 0 0 18%;
+        max-width: 18%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 850px) {
+
+}
+
+@media (min-width: 768px ) and (max-width: 992px) {
+    .container {
+        width: 96%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 96%;
+    }
+}

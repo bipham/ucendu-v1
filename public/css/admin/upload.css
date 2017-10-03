@@ -1,0 +1,52 @@
+/* --------------------------------
+
+Created by Bi Pham
+03-05-2017
+
+-------------------------------- */
+
+.row-steps-info {
+    height: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    background: green;
+}
+
+.card-step-area {
+    width: 100%;
+}
+
+.control-step-area {
+    margin: 20px 0;
+}
+
+.btn-custom-step {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.answer-key {
+    padding: 10px;
+    border: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.title-answer-for-question {
+    color: red;
+    text-decoration: underline;
+}
+
+.title-row-enter {
+    font-weight: 700;
+}
+
+.input-keyword {
+    min-width: 70%;
+    min-height: 80px;
+}
+
+.remove-highlight-area div {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,18 @@
+.thumbnail-outer-custom {
+    height: 80px;
+}
+
+.img-feature-custom {
+    width: 80px;
+}
+
+.title-thumbnail-inner:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+table#reading-list-comment td {
+    vertical-align: middle;
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="jquery.splitter.js"></script>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#2C3E50;
+  color:#fff;
+}
+body p {
+  padding:20px;
+}
+#leftPane {
+  width: 200px;
+}
+#topPane {
+  height: 100px;
+}
+</style>
+<title>jQuery Splitter Plugin Demo</title>
+</head>
+<body>
+<div id="workspace">
+  <div id="leftPane">
+    <p>Left</p>
+  </div>
+  <div id="rightPane">
+    <div id="topPane">
+      <p>Right Top</p>
+    </div>
+    <div id="bottomPane">
+      <p>Right Bottom</p>
+    </div>
+  </div>
+</div>
+<script>
+$(function() {
+  $("#workspace").splitter({
+    "orientation": "horizontal",
+    "limit": 100
+  });
+  $("#rightPane").splitter({
+    "orientation": "vertical",
+    "limit": 100
+  });
+});
+</script>
+</body>
+</html>

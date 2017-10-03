@@ -1,0 +1,39 @@
+.btn-edit-content-lesson {
+    left: 0;
+}
+
+.btn-custom-edit-lesson {
+    display: block;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 11px;
+    padding: 8px 0;
+    font-weight: 600;
+    position: fixed;
+    z-index: 99999;
+    bottom: 10%;
+}
+
+.btn-edit-quiz-lesson {
+    right: 0;
+}
+
+.icon-reading-edit-lesson {
+    display: block;
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: 600;
+}
+
+#cke_contentLesson {
+    width: 100%;
+    /*min-height: 500px;*/
+}
+
+
+.btn-edit-custom {
+    margin-top: 20px;
+}
